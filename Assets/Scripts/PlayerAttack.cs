@@ -37,7 +37,6 @@ public class PlayerAttack : MonoBehaviour
     }   
     private void Attack()
     {
-
         attacking = true;
         m_Animator.SetBool("Punch", true);
         attackArea.SetActive(attacking);
